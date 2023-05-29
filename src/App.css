@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* on ajoute du style au menu de navigation */
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #61dafb;
+}
+
