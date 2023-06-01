@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Text from "./pages/Text";
 import Logo from "./components/Logo";
 import Phrase from "./components/Tailwind";
+import About from "./components/About";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
 
       {/* on appel phrase.js - test tailwindcss */}
       <Phrase />
+
+      <About />
 
       {/* Permet d'indiquer l'endroit de l'injection de code (ici à la fin) */}
       <BrowserRouter>

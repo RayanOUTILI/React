@@ -8,6 +8,7 @@ const Tailwind = () => {
         <h2 className="text-lg">Ceci est un titre - TEST avec tailwindcss</h2>
         <img src="https://picsum.photos/200/" alt="imag_test" />
     </div>
+
   );
 };
 
