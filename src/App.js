@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import Text from "./pages/Text";
 import Logo from "./components/Logo";
+import Phrase from "./components/Tailwind";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
 
       {/* ici on peut utiliser le composant logo (permet de coder un composant 1 seule fois) */}
       <Logo />
+
+      {/* on appel phrase.js - test tailwindcss */}
+      <Phrase />
 
       {/* Permet d'indiquer l'endroit de l'injection de code (ici à la fin) */}
       <BrowserRouter>
